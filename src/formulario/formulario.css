@@ -1,0 +1,125 @@
+.formulario-fundo{
+    background-image: url(/public/assets/imagens/rio.jpg);
+    padding: 5% 10%;
+}
+
+.formulario-fundo form{
+    background: white;
+}
+
+.formulario-fundo .formulario-topo{
+    background: #5d15d1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario-fundo .link{
+    padding: 0px;
+    text-decoration: none;
+}
+
+.formulario-fundo .div-link{
+    background: white;
+    width: 17%;
+}
+
+.formulario-fundo .link p{
+    color: #5d15d1;
+    padding: 5px;
+    margin: 0px;
+    text-align: center;
+}
+
+.formulario-fundo .link p:hover{
+    color: #7a35eb;
+}
+
+.formulario-fundo .formulario-topo img{
+    height: 40px;
+    margin-right: 20px;
+}
+
+.formulario-fundo .formulario-topo p{
+    font-size: 20px;
+}
+
+.formulario-fundo .formulario-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 25px;
+}
+
+.formulario-fundo .formulario-container h1{
+    font-size: 24px;
+}
+
+.formulario-fundo .formulario-container .formulario-item{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    margin-right: 20px;
+}
+
+.formulario-fundo .formulario-container .formulario-item-dobrado{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.formulario-fundo .formulario-item-metade{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.formulario-fundo .formulario-container .formulario-item-opcoes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formulario-fundo .formulario-item-opcoes-itens{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.formulario-fundo .formulario-item-opcoes-itens .opcoes{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.formulario-fundo label{
+    align-self: flex-start;
+    margin: 5px 5px 5px 0;
+}
+
+.formulario-fundo input{
+    height: 25px;
+    border: 1px solid black;
+}
+
+.formulario-fundo select{
+    height: 30px;
+    border: 1px solid black;
+}
+
+.formulario-fundo button{
+    align-self: flex-start;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    background: #5d15d1;
+    color: white;
+    border: 1px solid black;
+    padding: 8px 5px;
+    transition: all 0.5s;
+}
+
+.formulario-fundo button:hover{
+    background: #7a35eb;
+}

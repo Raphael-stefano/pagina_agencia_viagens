@@ -1,0 +1,97 @@
+section{
+    padding: 10px 10%;
+    background-color: #eaeaea;
+}
+
+section h2{
+    margin: 0px;
+}
+
+section p{
+    margin: 10px 0px;
+}
+
+section .div-titulos{
+    margin-top: 25px;
+}
+
+section .div-maior-1, section .div-maior-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+section .div-media-rj{
+    background-image: url(/public/assets/imagens/rio.jpg);
+    background-size: cover;
+    width: 49%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section .div-maior-1 .link{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 7.5px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+section .div-maior-1 .div-media-quatro{
+    width: 49%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+section .div-maior-1 .div-media-quatro .div-menor{
+    width: calc(50% - 5px);
+    height: calc(50% - 10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section .div-maior-1 .div-media-quatro .div-menor:first-of-type{
+    background: url(/public/assets/imagens/manaus.jpg);
+    background-size: cover;
+}
+
+section .div-maior-1 .div-media-quatro .div-menor:nth-of-type(2){
+    background: url(/public/assets/imagens/saopaulo.jpg);
+    background-size: cover;
+}
+
+section .div-maior-1 .div-media-quatro .div-menor:nth-of-type(3){
+    background: url(/public/assets/imagens/niteroi.jpg);
+    background-size: cover;
+}
+
+section .div-maior-1 .div-media-quatro .div-menor:last-of-type{
+    background: url(/public/assets/imagens/maranhao.jpg);
+    background-size: cover;
+}
+
+section .div-maior-2 .div-media{
+    width: calc(50% - 20px);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+section .div-maior-2 .div-media img{
+    width: 100%;
+}
+
+section .div-maior-2 .div-media .perdi-a-criatividade-pra-nome-de-classe{
+    padding: 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+section .div-maior-2 .div-media .perdi-a-criatividade-pra-nome-de-classe .p-sec{
+    color: #979998;
+}
